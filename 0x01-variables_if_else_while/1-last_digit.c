@@ -1,5 +1,6 @@
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - print the last digit of a number, check if greater or less than 5
  *
