@@ -37,7 +37,7 @@ int main(void)
 					m++;
 				}
 				m = 0;
-				k++
+				k++;
 			}
 			j++;
 		}
