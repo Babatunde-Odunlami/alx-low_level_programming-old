@@ -6,7 +6,8 @@
 
 int main(void)
 {
-	n = "and that is piece of art is useful"
+	n = "and that is piece of art is useful";
+
 	fprintf(stderr, "%s \" - Dora Korpar, 2015-10-19\n", n);
 	return (1);
 }
