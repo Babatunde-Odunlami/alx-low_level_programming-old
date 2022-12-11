@@ -41,7 +41,6 @@ int main(void)
 				k++;
 			}
 			j++;
-	
 		i++;
 	}
 	putchar(10);
