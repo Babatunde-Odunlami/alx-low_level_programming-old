@@ -37,6 +37,7 @@ int main(void)
 					}
 					m++;
 				}
+				m = i
 				k++;
 			}
 			j++;
