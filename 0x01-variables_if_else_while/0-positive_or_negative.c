@@ -1,13 +1,13 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
- * main - initiating betty
+ * main - printing s randome number and decide if it is positive or negative
  *
  * Description: main
  *
- * Return: always 0 (Success)
+ * Return: 0
 */
-
 int main(void)
 {
 	int n;
@@ -19,7 +19,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
-		ptintf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
 
