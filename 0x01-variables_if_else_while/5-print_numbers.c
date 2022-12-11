@@ -16,7 +16,7 @@ int main(void)
 
 	while (j < 58)
 	{
-		printf("%d", j);
+		printf("j");
 		j++;
 	}
 	return (0);
