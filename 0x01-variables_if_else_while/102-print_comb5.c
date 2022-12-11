@@ -9,35 +9,35 @@ int main(void)
 {
 	int i, j, k, m;
 
-	i = 48;
+	i = 0;
 
-	while (i < 58)
+	while (i < 10)
 	{
-		j = 48;
+		j = 0;
 
-		while (j < 58)
+		while (j < 10)
 		{
-			k = 48;
+			k = 0;
 			m = j + i;
 
-			while (k < 58)
+			while (k < 9)
 			{
-				while (m < 58)
+				while (m < 9)
 				{
 					putchar(i);
 					putchar(j);
-					putchar(32);
+					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (i < 57 || j < 56 || k < 57 || m < 57)
+					if (!(i == 9 || j == 8 || k == 9 || m == 9))
 					{
-						putchar(44);
-						putchar(32);
+						putchar(' ');
+						putchar(',');
 					}
 					m++;
 				}
-				m = 48;
-				k++;
+				m = 0;
+				k++
 			}
 			j++;
 		}
