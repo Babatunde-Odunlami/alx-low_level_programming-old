@@ -18,17 +18,17 @@ int main(void)
 		while (j < 58)
 		{
 			k = 48;
+			m = j + i;
 
 			while (k < 58)
 			{
-				m = i + j
 				while (m < 58)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(32);
-					putchar(k);
 					putchar(m);
+					putchar(k);
 					if (i < 57 || j < 56 || k < 57 || m < 57)
 					{
 						putchar(44);
