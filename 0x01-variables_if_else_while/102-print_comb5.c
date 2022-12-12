@@ -29,7 +29,7 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(m);
-					if (!(i == 9 || j == 8 || k == 9 || m == 9))
+					if (i < 9 || j < 8 || k < 9 || m < 9))
 					{
 						putchar(' ');
 						putchar(',');
@@ -39,7 +39,7 @@ int main(void)
 				m = 0;
 				k++;
 			}
-			j++;
+			j++;i
 		}
 		i++;
 	}
