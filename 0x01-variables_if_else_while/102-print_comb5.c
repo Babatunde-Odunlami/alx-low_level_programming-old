@@ -9,37 +9,37 @@ int main(void)
 {
 	int i, j, k, m;
 
-	i = 0;
+	i = 48;
 
-	while (i < 10)
+	while (i < 58)
 	{
-		j = 0;
+		j = 48;
 
-		while (j < 10)
+		while (j < 58)
 		{
-			k = 0;
+			k = 48;
 			m = j + i;
 
-			while (k < 9)
+			while (k < 58)
 			{
-				while (m < 9)
+				while (m < 58)
 				{
 					putchar(i);
 					putchar(j);
-					putchar(' ');
+					putcha(32);
 					putchar(k);
 					putchar(m);
-					if (i < 9 || j < 8 || k < 9 || m < 9)
+					if (i < 57 || j < 56 || k < 57 || m < 57)
 					{
-						putchar(' ');
-						putchar(',');
+						putchar(44);
+						putchar(32);
 					}
 					m++;
 				}
-				m = 0;
+				m = 48;
 				k++;
 			}
-			j++;i
+			j++;
 		}
 		i++;
 	}
