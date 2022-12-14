@@ -24,7 +24,6 @@ void times_table(void)
 			{
 				_putchar((prod / 10) + '0');
 			}
-				(prod <= 81 && prod >= 10);
 			_putchar((prod % 10) + '0');
 	
 		}
