@@ -10,7 +10,8 @@
 int main(void)
 {
 	long fib1 = 0, fib2 = 1, fibsum;
-	float tit_sum;
+	float tot_sum;
+	
 
 	while (1)
 	{
