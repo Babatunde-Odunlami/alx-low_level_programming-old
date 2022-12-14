@@ -11,7 +11,6 @@ int main(void)
 {
 	long fib1 = 0, fib2 = 1, fibsum;
 	float tot_sum;
-	
 
 	while (1)
 	{
