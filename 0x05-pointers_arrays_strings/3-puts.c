@@ -6,6 +6,7 @@
  *
  * Return: the length of the string
  */
+
 void _puts(char *str)
 {
 	int i = 0;
@@ -16,4 +17,5 @@ void _puts(char *str)
 		i++;
 	}
 	_putchar('\n');
+	return(i);
 }
